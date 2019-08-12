@@ -1,0 +1,36 @@
+{
+  "name": "protractor-cucumber-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run protractor",
+    "update": "node ./node_modules/protractor/bin/webdriver-manager update",
+    "protractor": "node ./node_modules/protractor/bin/protractor ./build/config/common.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cucumber": "^4.0.7",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "cucumber": "5.0.3",
+    "cucumber-html-reporter": "^5.0.0",
+    "cucumber-tsflow": "^3.2.0",
+    "cucumberjs-allure2-reporter": "^1.3.0",
+    "dotenv": "^8.0.0",
+    "i": "^0.3.6",
+    "npm": "^6.10.3",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.3",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3",
+    "webdriver-manager": "^12.1.6"
+  }
+}

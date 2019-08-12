@@ -1,0 +1,60 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Main site",
+    "line": 2,
+    "id": "main-site",
+    "tags": [
+      {
+        "name": "@feature:main",
+        "line": 1
+      }
+    ],
+    "uri": "features\\homepage.feature",
+    "elements": [
+      {
+        "id": "main-site;main-site",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Main Site",
+        "tags": [
+          {
+            "name": "@feature:main",
+            "line": 1
+          },
+          {
+            "name": "@bug_123",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open \"home\" page",
+            "match": {
+              "location": "src\\stepdefinitions\\homepage.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

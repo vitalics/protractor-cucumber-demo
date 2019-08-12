@@ -1,0 +1,88 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google site",
+    "line": 2,
+    "id": "google-site",
+    "tags": [
+      {
+        "name": "@feature:google",
+        "line": 1
+      }
+    ],
+    "uri": "features\\google.feature",
+    "elements": [
+      {
+        "id": "google-site;google-site",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Google Site",
+        "tags": [
+          {
+            "name": "@feature:google",
+            "line": 1
+          },
+          {
+            "name": "@bug_456",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User should open \"google\" page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:85"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
